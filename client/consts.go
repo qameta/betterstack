@@ -1,0 +1,30 @@
+package client
+
+const MonitorTypeStatus = "status"
+const MonitorTypeStatusCode = "status_code"
+const MonitorTypeKeyword = "keyword"
+const MonitorTypeKeywordAbsence = "keyword_absence"
+const MonitorTypePing = "ping"
+const MonitorTypeTCP = "tcp"
+const MonitorTypeUDP = "udp"
+const MonitorTypeSMTP = "smtp"
+const MonitorTypePOP = "pop"
+const MonitorTypeIMAP = "imap"
+const MonitorTypeDNS = "dns"
+const MonitorTypePlaywright = "playwright"
+
+const FilterByURL = "url"
+const FilterByPronounceableName = "pronounceable_name"
+
+const RegionUS = "us"
+const RegionEU = "eu"
+const RegionAsia = "as"
+const RegionAustralia = "au"
+
+const Monday = "mon"
+const Tuesday = "tue"
+const Wednesday = "wed"
+const Thursday = "thu"
+const Friday = "fri"
+const Saturday = "sat"
+const Sunday = "sun"
